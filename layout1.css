@@ -1,0 +1,52 @@
+*
+{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+.wrapper{
+   display: flex;
+   background-color: rgb(247, 167, 20);
+   justify-content: space-between;
+   padding: 10px;
+   align-items: center;
+
+}
+h1{
+   color:red;
+   
+}
+span{
+   color: beige;
+}
+ul{
+   display: flex;
+   justify-content:space-around;
+   
+}
+li{
+   list-style: none;
+   padding:5px
+
+}
+a{
+   text-decoration: none;
+   color: beige;
+   
+
+}
+#image{
+   background: url(/Gondwana-Rainforest-Biggest-Forest-feature-update.jpg) no-repeat fixed center/cover;
+   height: 300px;
+}
+.para{
+   display:flex ;
+   justify-content:space-around;
+   
+   
+}
+.para>div{
+   border: solid 1px;
+   width: 440px;
+   
+}
