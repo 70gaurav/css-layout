@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-radius:4px;
+}
+
+.wrapper span {
+    color: green;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: brown;
+    margin: 2px;
+    padding: 20px;
+    border-left: 2px solid white;
+}
+
+.image {
+    background: url(image/dress.jpg.jpg) no-repeat scroll center / cover;
+    height: 600px;
+}
+
+.paragraph {
+    display: flex;
+    
+
+
+}
+
+.paragraph p {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.foot {
+    background-color: orange;
+    display: flex;
+    height: 400px;
+}
+
+.foot ul {
+    border-right: 1px solid;
+}
+
+.foot li {
+    list-style: none;
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.foot a {
+    text-decoration: none;
+    color: black;
+}
+
+.foot p {
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer h3 {
+    background-color: slategrey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.box {
+    position: relative;
+}
+
+.paragraph {
+    position: absolute;
+    bottom: -100px;
+}
+
+.down {
+    display: flex;
+    margin-top: 100px;
+}
+.menu li a:hover{
+color:black;
+}
