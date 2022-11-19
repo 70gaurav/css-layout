@@ -32,6 +32,8 @@ li{
 a{
    text-decoration: none;
    color: beige;
+   border-left: 2px solid white;
+   padding: 20px;
    
 
 }
