@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    background-color: black;
+}
+.heading{
+    color: brown;
+    padding: 5px;
+    
+}
+.menu1 ul{
+    display: flex;
+    align-items: center;
+}
+.menu1 li{
+    padding: 10px 50px;
+    list-style: none;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 2px;
+    background-color: rgb(237, 6, 45);
+    display: wrap;
+    
+}
+.menu1 a{
+    text-decoration: none;
+    color: rgb(10, 0, 0);
+}
+.image{
+    background: url(COSMOS-1.jpg) no-repeat scroll center/cover;
+    height: 600px;
+}
+.paragraph1{
+    display: flex;
+    justify-content: space-between;
+}
+.mid{
+    position: relative;
+}
+.paragraph1 p{
+    border: 1px solid;
+    margin: 0px 5px;
+    border-radius: 5px;
+    background-color: rgb(237, 6, 45);
+}
+.paragraph1{
+    position: absolute;
+    bottom: -50px;
+}
+.port{
+    background-color: black;
+}
+.port p{
+    color:rgb(237, 6, 45);
+    margin: 10px;
+    padding: 10px;
+}
+.mont{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.menu1 li a:hover{
+    color: chartreuse;
+
+}
+.port li{
+    margin: 27px;
+    padding: 10px;
+    width: 177px;
+    background-color: rgb(237, 6, 45);
+    border-radius: 5px;
+    list-style: none;
+    
+}
+.menu2 ul{
+    border-right: 2px solid rgb(237, 6, 45);
+}
+.menu2 li a{
+    text-decoration: none;
+    color: black;
+}
+.menu2 li a:hover{
+    color: chartreuse;
+}
+
+
